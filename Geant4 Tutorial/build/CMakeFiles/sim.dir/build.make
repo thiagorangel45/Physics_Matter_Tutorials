@@ -142,10 +142,24 @@ CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/thiagorangel/sim/src/PMPrimaryGenerator.cc -o CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.s
 
+CMakeFiles/sim.dir/src/PMRunAction.cc.o: CMakeFiles/sim.dir/flags.make
+CMakeFiles/sim.dir/src/PMRunAction.cc.o: /Users/thiagorangel/sim/src/PMRunAction.cc
+CMakeFiles/sim.dir/src/PMRunAction.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/thiagorangel/sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sim.dir/src/PMRunAction.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/PMRunAction.cc.o -MF CMakeFiles/sim.dir/src/PMRunAction.cc.o.d -o CMakeFiles/sim.dir/src/PMRunAction.cc.o -c /Users/thiagorangel/sim/src/PMRunAction.cc
+
+CMakeFiles/sim.dir/src/PMRunAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sim.dir/src/PMRunAction.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/thiagorangel/sim/src/PMRunAction.cc > CMakeFiles/sim.dir/src/PMRunAction.cc.i
+
+CMakeFiles/sim.dir/src/PMRunAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/PMRunAction.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/thiagorangel/sim/src/PMRunAction.cc -o CMakeFiles/sim.dir/src/PMRunAction.cc.s
+
 CMakeFiles/sim.dir/src/PMSensitiveDetector.cc.o: CMakeFiles/sim.dir/flags.make
 CMakeFiles/sim.dir/src/PMSensitiveDetector.cc.o: /Users/thiagorangel/sim/src/PMSensitiveDetector.cc
 CMakeFiles/sim.dir/src/PMSensitiveDetector.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/thiagorangel/sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sim.dir/src/PMSensitiveDetector.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/thiagorangel/sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sim.dir/src/PMSensitiveDetector.cc.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/PMSensitiveDetector.cc.o -MF CMakeFiles/sim.dir/src/PMSensitiveDetector.cc.o.d -o CMakeFiles/sim.dir/src/PMSensitiveDetector.cc.o -c /Users/thiagorangel/sim/src/PMSensitiveDetector.cc
 
 CMakeFiles/sim.dir/src/PMSensitiveDetector.cc.i: cmake_force
@@ -163,6 +177,7 @@ sim_OBJECTS = \
 "CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o" \
 "CMakeFiles/sim.dir/src/PMPhysicsList.cc.o" \
 "CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o" \
+"CMakeFiles/sim.dir/src/PMRunAction.cc.o" \
 "CMakeFiles/sim.dir/src/PMSensitiveDetector.cc.o"
 
 # External object files for target sim
@@ -173,6 +188,7 @@ sim: CMakeFiles/sim.dir/src/PMActionInitialization.cc.o
 sim: CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o
 sim: CMakeFiles/sim.dir/src/PMPhysicsList.cc.o
 sim: CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o
+sim: CMakeFiles/sim.dir/src/PMRunAction.cc.o
 sim: CMakeFiles/sim.dir/src/PMSensitiveDetector.cc.o
 sim: CMakeFiles/sim.dir/build.make
 sim: /Users/thiagorangel/geant4-install/lib/libG4Tree.dylib
@@ -182,6 +198,8 @@ sim: /Users/thiagorangel/geant4-install/lib/libG4visHepRep.dylib
 sim: /Users/thiagorangel/geant4-install/lib/libG4RayTracer.dylib
 sim: /Users/thiagorangel/geant4-install/lib/libG4VRML.dylib
 sim: /Users/thiagorangel/geant4-install/lib/libG4ToolsSG.dylib
+sim: /Users/thiagorangel/geant4-install/lib/libG4OpenGL.dylib
+sim: /Users/thiagorangel/geant4-install/lib/libG4visQt3D.dylib
 sim: /Users/thiagorangel/geant4-install/lib/libG4vis_management.dylib
 sim: /Users/thiagorangel/geant4-install/lib/libG4modeling.dylib
 sim: /Users/thiagorangel/geant4-install/lib/libG4interfaces.dylib
@@ -214,7 +232,7 @@ sim: /Users/thiagorangel/geant4-install/lib/libG4global.dylib
 sim: /Users/thiagorangel/geant4-install/lib/libG4clhep.dylib
 sim: /Users/thiagorangel/geant4-install/lib/libG4ptl.3.0.0.dylib
 sim: CMakeFiles/sim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/thiagorangel/sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/thiagorangel/sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable sim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

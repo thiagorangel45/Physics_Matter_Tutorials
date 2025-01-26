@@ -130,17 +130,17 @@ sim/fast:
 .PHONY : sim/fast
 
 #=============================================================================
-# Target rules for targets named Turorial
+# Target rules for targets named Tutorial
 
 # Build rule for target.
-Turorial: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Turorial
-.PHONY : Turorial
+Tutorial: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tutorial
+.PHONY : Tutorial
 
 # fast build rule for target.
-Turorial/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Turorial.dir/build.make CMakeFiles/Turorial.dir/build
-.PHONY : Turorial/fast
+Tutorial/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/build
+.PHONY : Tutorial/fast
 
 sim.o: sim.cc.o
 .PHONY : sim.o
@@ -262,6 +262,30 @@ src/PMPrimaryGenerator.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.s
 .PHONY : src/PMPrimaryGenerator.cc.s
 
+src/PMRunAction.o: src/PMRunAction.cc.o
+.PHONY : src/PMRunAction.o
+
+# target to build an object file
+src/PMRunAction.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMRunAction.cc.o
+.PHONY : src/PMRunAction.cc.o
+
+src/PMRunAction.i: src/PMRunAction.cc.i
+.PHONY : src/PMRunAction.i
+
+# target to preprocess a source file
+src/PMRunAction.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMRunAction.cc.i
+.PHONY : src/PMRunAction.cc.i
+
+src/PMRunAction.s: src/PMRunAction.cc.s
+.PHONY : src/PMRunAction.s
+
+# target to generate assembly for a file
+src/PMRunAction.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/PMRunAction.cc.s
+.PHONY : src/PMRunAction.cc.s
+
 src/PMSensitiveDetector.o: src/PMSensitiveDetector.cc.o
 .PHONY : src/PMSensitiveDetector.o
 
@@ -294,7 +318,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Turorial"
+	@echo "... Tutorial"
 	@echo "... sim"
 	@echo "... sim.o"
 	@echo "... sim.i"
@@ -311,6 +335,9 @@ help:
 	@echo "... src/PMPrimaryGenerator.o"
 	@echo "... src/PMPrimaryGenerator.i"
 	@echo "... src/PMPrimaryGenerator.s"
+	@echo "... src/PMRunAction.o"
+	@echo "... src/PMRunAction.i"
+	@echo "... src/PMRunAction.s"
 	@echo "... src/PMSensitiveDetector.o"
 	@echo "... src/PMSensitiveDetector.i"
 	@echo "... src/PMSensitiveDetector.s"

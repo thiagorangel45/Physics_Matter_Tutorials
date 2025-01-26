@@ -228,5 +228,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/sim.dir/DependInfo.cmake"
-  "CMakeFiles/Turorial.dir/DependInfo.cmake"
+  "CMakeFiles/Tutorial.dir/DependInfo.cmake"
   )

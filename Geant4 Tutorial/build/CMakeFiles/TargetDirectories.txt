@@ -1,4 +1,4 @@
 /Users/thiagorangel/sim/build/CMakeFiles/sim.dir
-/Users/thiagorangel/sim/build/CMakeFiles/Turorial.dir
+/Users/thiagorangel/sim/build/CMakeFiles/Tutorial.dir
 /Users/thiagorangel/sim/build/CMakeFiles/edit_cache.dir
 /Users/thiagorangel/sim/build/CMakeFiles/rebuild_cache.dir

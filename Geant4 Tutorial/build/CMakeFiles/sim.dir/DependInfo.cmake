@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/thiagorangel/sim/src/PMDetectorConstruction.cc" "CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o" "gcc" "CMakeFiles/sim.dir/src/PMDetectorConstruction.cc.o.d"
   "/Users/thiagorangel/sim/src/PMPhysicsList.cc" "CMakeFiles/sim.dir/src/PMPhysicsList.cc.o" "gcc" "CMakeFiles/sim.dir/src/PMPhysicsList.cc.o.d"
   "/Users/thiagorangel/sim/src/PMPrimaryGenerator.cc" "CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o" "gcc" "CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o.d"
+  "/Users/thiagorangel/sim/src/PMRunAction.cc" "CMakeFiles/sim.dir/src/PMRunAction.cc.o" "gcc" "CMakeFiles/sim.dir/src/PMRunAction.cc.o.d"
   "/Users/thiagorangel/sim/src/PMSensitiveDetector.cc" "CMakeFiles/sim.dir/src/PMSensitiveDetector.cc.o" "gcc" "CMakeFiles/sim.dir/src/PMSensitiveDetector.cc.o.d"
   )
 

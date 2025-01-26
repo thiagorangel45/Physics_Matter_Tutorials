@@ -1027,4 +1027,6 @@ CMakeFiles/sim.dir/src/PMPrimaryGenerator.cc.o: \
   /Users/thiagorangel/geant4-install/include/Geant4/G4ParticleTable.hh \
   /Users/thiagorangel/geant4-install/include/Geant4/G4ParticleTableIterator.hh \
   /Users/thiagorangel/geant4-install/include/Geant4/G4ParticleTable.icc \
-  /Users/thiagorangel/geant4-install/include/Geant4/G4SystemOfUnits.hh
+  /Users/thiagorangel/geant4-install/include/Geant4/G4SystemOfUnits.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4IonTable.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4Ions.hh

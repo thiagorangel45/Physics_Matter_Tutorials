@@ -1370,6 +1370,12 @@ CMakeFiles/sim.dir/sim.cc.o: /Users/thiagorangel/sim/sim.cc \
   /Users/thiagorangel/geant4-install/include/Geant4/G4VRML2File.hh \
   /Users/thiagorangel/geant4-install/include/Geant4/G4GMocrenFile.hh \
   /Users/thiagorangel/geant4-install/include/Geant4/G4ToolsSGOffscreen.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4OpenGLImmediateX.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4OpenGLStoredX.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4OpenGLImmediateQt.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4OpenGLQt.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4OpenGLStoredQt.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4Qt3D.hh \
   /Users/thiagorangel/geant4-install/include/Geant4/G4ToolsSGX11GLES.hh \
   /Users/thiagorangel/geant4-install/include/Geant4/G4ToolsSGX11ZB.hh \
   /Users/thiagorangel/geant4-install/include/Geant4/G4ToolsSGQtGLES.hh \
@@ -1413,6 +1419,12 @@ CMakeFiles/sim.dir/sim.cc.o: /Users/thiagorangel/sim/sim.cc \
   /Users/thiagorangel/geant4-install/include/Geant4/G4ProductionCuts.hh \
   /Users/thiagorangel/geant4-install/include/Geant4/G4MCCIndexConversionTable.hh \
   /Users/thiagorangel/geant4-install/include/Geant4/G4EmStandardPhysics.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4RadioactiveDecayPhysics.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4DecayPhysics.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4Decay.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4VRestDiscreteProcess.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4ParticleChangeForDecay.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4DecayProcessType.hh \
   /Users/thiagorangel/sim/include/PMDetectorConstruction.hh \
   /Users/thiagorangel/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh \
   /Users/thiagorangel/geant4-install/include/Geant4/G4PVPlacement.hh \
@@ -1434,9 +1446,74 @@ CMakeFiles/sim.dir/sim.cc.o: /Users/thiagorangel/sim/sim.cc \
   /Users/thiagorangel/geant4-install/include/Geant4/G4SensitiveVolumeList.hh \
   /Users/thiagorangel/geant4-install/include/Geant4/G4VSDFilter.hh \
   /Users/thiagorangel/sim/include/PMSensitiveDetector.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4AnalysisManager.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4GenericAnalysisManager.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4VAnalysisManager.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4AnalysisManagerState.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4AnalysisVerbose.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4AnalysisUtilities.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4VTBaseHnManager.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4HnInformation.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4BinScheme.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4Fcn.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4VAnalysisManager.icc \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4HnManager.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4BaseAnalysisManager.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4NtupleBookingManager.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/tools/ntuple_booking \
+  /Users/thiagorangel/geant4-install/include/Geant4/tools/cids \
+  /Users/thiagorangel/geant4-install/include/Geant4/tools/cid \
+  /Users/thiagorangel/geant4-install/include/Geant4/tools/typedefs \
+  /Users/thiagorangel/geant4-install/include/Geant4/tools/forit \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4NtupleBookingManager.icc \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4VNtupleManager.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4VFileManager.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4BaseFileManager.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4VTHnFileManager.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4TH1ToolsManager.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4THnToolsManager.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4THnManager.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4THnManager.icc \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4THnMessenger.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4THnToolsManager.icc \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4THnMessenger.icc \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4Tokenizer.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4TH2ToolsManager.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4TH3ToolsManager.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4TP1ToolsManager.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4TP2ToolsManager.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/tools/histo/h1d \
+  /Users/thiagorangel/geant4-install/include/Geant4/tools/histo/h1 \
+  /Users/thiagorangel/geant4-install/include/Geant4/tools/histo/b1 \
+  /Users/thiagorangel/geant4-install/include/Geant4/tools/histo/base_histo \
+  /Users/thiagorangel/geant4-install/include/Geant4/tools/histo/histo_data \
+  /Users/thiagorangel/geant4-install/include/Geant4/tools/histo/axes \
+  /Users/thiagorangel/geant4-install/include/Geant4/tools/histo/axis \
+  /Users/thiagorangel/geant4-install/include/Geant4/tools/histo/../eqT \
+  /Users/thiagorangel/geant4-install/include/Geant4/tools/histo/h2d \
+  /Users/thiagorangel/geant4-install/include/Geant4/tools/histo/h2 \
+  /Users/thiagorangel/geant4-install/include/Geant4/tools/histo/b2 \
+  /Users/thiagorangel/geant4-install/include/Geant4/tools/histo/h3d \
+  /Users/thiagorangel/geant4-install/include/Geant4/tools/histo/h3 \
+  /Users/thiagorangel/geant4-install/include/Geant4/tools/histo/b3 \
+  /Users/thiagorangel/geant4-install/include/Geant4/tools/histo/p1d \
+  /Users/thiagorangel/geant4-install/include/Geant4/tools/histo/p1 \
+  /Users/thiagorangel/geant4-install/include/Geant4/tools/histo/profile_data \
+  /Users/thiagorangel/geant4-install/include/Geant4/tools/histo/p2d \
+  /Users/thiagorangel/geant4-install/include/Geant4/tools/histo/p2 \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4ToolsAnalysisManager.icc \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4GenericAnalysisManager.icc \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4GenericFileManager.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4GenericFileManager.icc \
   /Users/thiagorangel/sim/include/PMActionInitialization.hh \
   /Users/thiagorangel/geant4-install/include/Geant4/G4VUserActionInitialization.hh \
   /Users/thiagorangel/sim/include/PMPrimaryGenerator.hh \
   /Users/thiagorangel/geant4-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
   /Users/thiagorangel/geant4-install/include/Geant4/G4ParticleGun.hh \
-  /Users/thiagorangel/geant4-install/include/Geant4/G4VPrimaryGenerator.hh
+  /Users/thiagorangel/geant4-install/include/Geant4/G4VPrimaryGenerator.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4IonTable.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4Ions.hh \
+  /Users/thiagorangel/sim/include/PMRunAction.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4UserRunAction.hh \
+  /Users/thiagorangel/geant4-install/include/Geant4/G4Run.hh
