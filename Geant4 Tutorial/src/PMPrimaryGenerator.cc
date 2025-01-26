@@ -4,20 +4,22 @@ PMPrimaryGenerator::PMPrimaryGenerator()
 {
     fParticleGun = new G4ParticleGun(1);
 
-    // Definir posição da partícula
-    G4ThreeVector pos(0., 0., 0.);
+    // Particle position
+    G4double x = 0. * cm;
+    G4double y = 0. * cm;
+    G4double z = -1. * cm;
 
-    // Definir direção do momento (evitar vetor nulo)
-    G4ThreeVector mom(0., 0., 1.);
+    G4ThreeVector pos(x, y, z);
 
-    // Definir tipo de partícula
-    G4ParticleTable *particleTable = G4ParticleTable::GetParticleTable();
-    G4ParticleDefinition *particle = particleTable->FindParticle("gamma");
+    // Particle direction
+    G4double px = 0.;
+    G4double py = 0.;
+    G4double pz = 0.;
+
+    G4ThreeVector mom(px, py, pz);
 
     fParticleGun->SetParticlePosition(pos);
     fParticleGun->SetParticleMomentumDirection(mom);
-    fParticleGun->SetParticleEnergy(1. * MeV);  // Corrigido
-    fParticleGun->SetParticleDefinition(particle);
 }
 
 PMPrimaryGenerator::~PMPrimaryGenerator()
@@ -27,5 +29,18 @@ PMPrimaryGenerator::~PMPrimaryGenerator()
 
 void PMPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
 {
+    // Particle type
+    G4int Z = 9;
+    G4int A = 18;
+
+    G4double charge = 0. * eplus;
+    G4double energy = 0. * keV;
+
+    G4ParticleDefinition *ion  = G4IonTable::GetIonTable()->GetIon(Z, A, energy);
+    fParticleGun->SetParticleDefinition(ion);
+    fParticleGun->SetParticleCharge(charge);
+    fParticleGun->SetParticleEnergy(energy);
+
+    // Create vertex
     fParticleGun->GeneratePrimaryVertex(anEvent);
 }
